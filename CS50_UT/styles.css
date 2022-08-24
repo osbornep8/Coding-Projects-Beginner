@@ -1,0 +1,116 @@
+h1{
+    font-family: monospace;
+    text-align: center;
+    font-size: 24px;
+    color: #6e841f;
+    border-bottom: 1px solid #010101;
+  }
+   /*.htea{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px; 
+    text-align: center;
+  } */
+ .order {
+  margin: 1% 39% 0;
+  text-align: center;
+  display:inline-block;
+  
+  font-size: 16px;
+  
+  border: 4px solid #aafe66;
+  border-radius: 0px;
+  animation-name: blink;
+  animation-duration: 0.5s;
+  animation-iteration-count: infinite;
+} 
+@keyframes blink {
+  50% { border-color: #ff8030; }
+}
+  .main{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  }
+  main p{
+    text-align: center;
+    text-shadow: #010101;
+    margin-top: 5%;
+    padding: 5%;
+    color: hsl(0, 0%, 100%);
+    background-image: url(chai.jpg);
+    
+  }
+menu{
+    margin: 10% 20% 0;
+    border: 2px double #444446;
+
+}
+div{
+    margin: 2% 5% 0;
+    border: 2px dotted yellowgreen;
+    border-inline:azure;
+    
+}
+dt{
+    margin: 1% 5% 0;
+    padding:1%;
+}
+button{
+    margin-left: 70%;
+    padding: 0 3%;
+}
+dd{
+    text-align: left;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    
+}
+footer{
+    text-align: center;
+    margin: 1%;
+}
+a {
+    
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.2s;
+    cursor: pointer;
+}
+
+a{
+    background-color: whitesmoke;
+    color: #010101;
+    border: 2px solid #4CAF50;
+}
+
+a:hover{
+    background-color: #4CAF50;
+    color: white;
+}
+
+.os{
+    padding-top: 5%;
+    text-align: center;
+    color: black;
+    text-transform: uppercase;
+    text-decoration: overline underline;    
+}
+.quant, .serial{
+    text-align: center;
+}
+table{
+    border-collapse: collapse;
+    width:25%;
+    margin: 5% 37%;
+}
+tr{
+    border-bottom: 1px solid #080808;
+}
+.total{
+    border-top: 2px solid #080808;
+}
